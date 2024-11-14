@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculette">
+
+
+        <div class="display">
+
+            <p id="result"></p>
+
+        </div>
+      <div class="c 1Colummn">
+        <div id="1" value="1" onclick="createString(this)"><p>1</p></div>
+        <div id="2" value="2" onclick="createString(this)"><p>2</p></div>
+        <div id="3" value="3" onclick="createString(this)"><p>3</p></div>
+        <div onclick="deleteAC()"><p >AC</p></div>
+      </div>
+
+      <div class="c 2Colummn">
+        <div id="4" value="4" onclick="createString(this)"><p>4</p></div>
+        <div id="5" value="5" onclick="createString(this)"><p>5</p></div>
+        <div id="6" value="6" onclick="createString(this)"><p>6</p></div>
+        <div id="-" value="-" onclick="createString(this)"><p>-</p></div>
+      </div>
+
+      <div class="c 3Colummn">
+        <div id="7" value="7" onclick="createString(this)"><p>7</p></div>
+        <div id="8" value="8" onclick="createString(this)"><p>8</p></div>
+        <div id="9" value="9" onclick="createString(this)"><p>9</p></div>
+        <div id="*" value="*" onclick="createString(this)"><p>*</p></div>
+      </div>
+
+      <div class="c 4Colummn">
+        <div id="0" value="0" onclick="createString(this)"><p>0</p></div>
+        <div id="+" value="+" onclick="createString(this)"><p>+</p></div>
+        <div id="/" value="/" onclick="createString(this)"><p>/</p></div>
+        <div style="background-color: rgb(249, 255, 127);" onclick="answerCalculation(stringMain)"><p>=</p></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
